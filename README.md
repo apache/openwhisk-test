@@ -1,9 +1,12 @@
 # incubator-openwhisk-test
-Test repo for gitbox
 
-just testing provenance :)
-sending borks..
+[![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 
-makin ponies
+This repository is used for integration testing of OpenWhisk tooling with GitHub itself.
 
-More ponies!!
+Currently, it is being used to test GitHub (event) integration for the following sub-projects:
+- [https://github.com/apache/incubator-openwhisk-wskdeploy](https://github.com/apache/incubator-openwhisk-wskdeploy).
+   Used to test GitHub as an Event Provider using the OpenWhisk GitHub webhook:
+  * [Test -> Integration -> Dependency](https://github.com/apache/incubator-openwhisk-wskdeploy/tree/master/tests/src/integration/dependency)
+  * [Test -> Use Cases -> GitHub](https://github.com/apache/incubator-openwhisk-wskdeploy/tree/master/tests/usecases/github)
+  * [Test -> Use Cases -> Dependency](https://github.com/apache/incubator-openwhisk-wskdeploy/tree/master/tests/usecases/dependency)
