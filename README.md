@@ -6,7 +6,7 @@ This repository is used for integration testing of OpenWhisk tooling with GitHub
 
 Currently, it is being used to test GitHub (event) integration for the following sub-projects:
 - [https://github.com/apache/incubator-openwhisk-wskdeploy](https://github.com/apache/incubator-openwhisk-wskdeploy).
--- Used to test GitHub as an Event Provider using the OpenWhisk GitHub webhook:
---- [Test -> Integration -> Dependency](https://github.com/apache/incubator-openwhisk-wskdeploy/tree/master/tests/src/integration/dependency)
---- [Test -> Use Cases -> GitHub](https://github.com/apache/incubator-openwhisk-wskdeploy/tree/master/tests/usecases/github)
---- [Test -> Use Cases -> Dependency](https://github.com/apache/incubator-openwhisk-wskdeploy/tree/master/tests/usecases/dependency)
+   Used to test GitHub as an Event Provider using the OpenWhisk GitHub webhook:
+  * [Test -> Integration -> Dependency](https://github.com/apache/incubator-openwhisk-wskdeploy/tree/master/tests/src/integration/dependency)
+  * [Test -> Use Cases -> GitHub](https://github.com/apache/incubator-openwhisk-wskdeploy/tree/master/tests/usecases/github)
+  * [Test -> Use Cases -> Dependency](https://github.com/apache/incubator-openwhisk-wskdeploy/tree/master/tests/usecases/dependency)
