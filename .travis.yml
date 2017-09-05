@@ -6,7 +6,6 @@ install:
 
 script:
   - "./tools/travis/scancode.sh"
-  - printenv | grep APIHOST
 
 env:
   global:
