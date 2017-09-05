@@ -2,7 +2,12 @@
 language: python
 
 install:
-  - ./tools/travis/setupscan.sh
+  - "./tools/travis/setupscan.sh"
 
 script:
-  - ./tools/travis/scancode.sh
+  - "./tools/travis/scancode.sh"
+  - printenv | grep APIHOST
+
+env:
+  global:
+    secure: p4vpB4ledIEXhZcKCoWypp2Yh6ScIDZiyNdHUzlMQeFdKre6Mz+EWh7I4gjMp4khWacJQvKD0hCkzOsCIpznVBsBMmlNKDIwGUXRHC8fKKABhWYI5pfkSSTHY6NRMjmnsizGlVvWUMzRyR2ZX0leEEnejkr4a6u0is3tngcOSSgFe/OWSqGzqOrVTD4wgwp1tj8ljL558MDVN/OXqLpja8BgzZDXuS4AIpxh4EER1y21WsuORPLorZEyPvRf/qcdrnI/MBYE2hg8d0HgzD3GHEctfzUpc/bfCpmQI1zNKLrs38mkbKHzgDEvWwqJf3QICRs3sEsRRZCK1IQNejAhS0FeZqSJx3hR3cZX2aXY5iBjltnQ6TQAofxgLTOTyzIeyCTw5Po1mj4CBjAbHHD2fUzhcSkIZN4Q93XsNWPzLZ9bv5zjAQlOWIGKbaYL0eS6lGInBkLZQoipr00/+JSkaOSIAF6vey0qPp3iNrffbS/PtvLFIrtBb4GQp52dDVQFsscGun14VPhoEmov4Dz/RB+9pJyTJvLGeW1U2ihzoE692luUmrqCoqZQmuSOxs3P9mTm6weN5dZcJfsibypm+KYykbbhZTe62wqmA9ONxxcnXURfioGgd7LRBGJ0WIesMKVaUJTCIkIzcU/kE6rrFlW5IVyWfNR+9avSXeQuME4=
