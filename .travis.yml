@@ -5,6 +5,8 @@ install:
   - "./tools/travis/setupscan.sh"
 
 script:
+  - echo $TRAVIS
+  - echo $TRAVIS_PULL_REQUEST
   - "./tools/travis/scancode.sh"
 
 env:
