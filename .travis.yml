@@ -7,6 +7,7 @@ install:
 script:
   - echo $TRAVIS
   - echo $TRAVIS_PULL_REQUEST
+  - echo $TRAVIS_SECURE_ENV_VARS
   - "./tools/travis/scancode.sh"
 
 env:
