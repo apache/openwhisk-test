@@ -2,7 +2,7 @@
 language: python
 
 install:
-  - "./tools/travis/setupscan.sh"
+  - ./tools/travis/setupscan.sh
 
 script:
-  - "./tools/travis/scancode.sh"
+  - ./tools/travis/scancode.sh
