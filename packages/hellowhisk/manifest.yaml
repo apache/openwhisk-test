@@ -4,6 +4,6 @@ package:
   name: hellowhisk
   actions:
     greeting:
-      location: src/greeting.js
+      function: src/greeting.js
     httpGet:
-      location: src/httpGet.swift
+      function: src/httpGet.swift
