@@ -6,7 +6,7 @@ _Collection of helloworld action variants._
 ## Actions
 
 The manifest.yaml file containst the following actions:
--    hello-js:
-  -  location: src/hello.js
--    helloworld-js:
-  -  location: src/helloworld.js
+- hello-js:
+  * function: src/hello.js
+- helloworld-js:
+  * function: src/helloworld.js

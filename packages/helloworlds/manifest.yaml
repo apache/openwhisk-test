@@ -2,6 +2,6 @@ package:
   name: helloworlds
   actions:
     hello-js:
-      location: src/hello.js
+      function: src/hello.js
     helloworld-js:
-      location: src/helloworld.js
+      function: src/helloworld.js
