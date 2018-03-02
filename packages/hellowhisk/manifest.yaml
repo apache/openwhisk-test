@@ -1,9 +1,9 @@
 # Test manifest for incubator-openwhisk-wskdeploy utility
 # See https://github.com/apache/incubator-openwhisk-wskdeploy/tree/master/tests/src/integration/dependency
-package:
-  name: hellowhisk
-  actions:
-    greeting:
-      function: src/greeting.js
-    httpGet:
-      function: src/httpGet.swift
+packages:
+    hellowhisk:
+        actions:
+            greeting:
+                function: src/greeting.js
+            httpGet:
+                function: src/httpGet.swift
