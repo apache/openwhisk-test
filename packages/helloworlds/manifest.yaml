@@ -1,7 +1,9 @@
-packages:
-    helloworlds:
-        actions:
-            hello-js:
-                function: src/hello.js
-            helloworld-js:
-                function: src/helloworld.js
+project:
+    name: HelloWorlds
+    packages:
+        helloworlds:
+            actions:
+                hello-js:
+                    function: src/hello.js
+                helloworld-js:
+                    function: src/helloworld.js
