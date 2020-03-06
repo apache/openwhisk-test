@@ -1,0 +1,19 @@
+{
+  "init": {
+    "name": "",
+    "main": "main",
+    "binary": false,
+    "code": "function main(params) { return { response: params };}"
+  },
+  "activation": {
+    "namespace": "default",
+    "action_name": "",
+    "api_host": "",
+    "api_key": "",
+    "activation_id": "",
+    "deadline": "4102498800000"
+  },
+  "value": {
+    "name": "Joe"
+  }
+}

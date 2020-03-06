@@ -1,0 +1,8 @@
+{
+  "init": {
+    "name": "",
+    "main": "main",
+    "binary": false,
+    "code": "function main(params) { return { payload: 'Hello ' + params.name + ' from ' + params.place + '!' };}"
+  }
+}
